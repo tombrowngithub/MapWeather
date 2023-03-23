@@ -1,7 +1,7 @@
 import React, {useRef, useEffect, useState} from "react";
 import mapboxgl from "mapbox-gl";
 import {CiSearch} from 'react-icons/ci';
-import geoJson from "./chicago-parks.json";
+import geoJson from "./geojson.json";
 import NavBar from "./components/NavBar";
 import Popup from "./components/Popup";
 
