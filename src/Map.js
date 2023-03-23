@@ -33,7 +33,7 @@ export default function Map() {
     useEffect(() => {
         map = new mapboxgl.Map({
             container: mapContainerRef.current,
-            style: "mapbox://styles/mapbox/streets-v12",
+            style: "mapbox://styles/mapbox/streets-v11",
             center: [12.4829321, 41.8933203],
             zoom: 5,
         });
