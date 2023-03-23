@@ -4,6 +4,9 @@ import {CiSearch} from 'react-icons/ci';
 import geoJson from "./geojson.json";
 import NavBar from "./components/NavBar";
 import Popup from "./components/Popup";
+import 'mapbox-gl/dist/mapbox-gl.css';
+// eslint-disable-next-line import/no-webpack-loader-syntax
+mapboxgl.workerClass = require('worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker').default;
 
 const weatherApi = {
     key: "8d8a86c8e525d8cb00d8c2850dfb03fd",
