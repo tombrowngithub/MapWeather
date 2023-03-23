@@ -4,12 +4,11 @@ import {CiSearch} from 'react-icons/ci';
 import geoJson from "./geojson.json";
 import NavBar from "./components/NavBar";
 import Popup from "./components/Popup";
-
+import 'mapbox-gl/dist/mapbox-gl.css'
 
 const weatherApi = {
     key: "8d8a86c8e525d8cb00d8c2850dfb03fd",
     url: "https://api.openweathermap.org/data/2.5/",
-    //resentUrl: "api.openweathermap.org/data/2.5/forecast?id=524901&appid={API key}",
 }
 
 const token = "pk.eyJ1IjoidG9tYnJvd24zIiwiYSI6ImNsZmdteXZqYTNhZ3MzeXBjNW1xczloZDgifQ.5dnZhnEskNaSnHs92Sh2PQ"
