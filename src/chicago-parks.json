@@ -1,0 +1,207 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Washington DC"
+      },
+      "geometry": {
+        "coordinates": [-77.0365427, 38.8950368],
+        "type": "Point"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Rio de Janeiro"
+      },
+      "geometry": {
+        "coordinates": [-43.2093727, -22.9110137],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Bogota"
+      },
+      "geometry": {
+        "coordinates": [-74.0836453, 4.6534649],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Caracas"
+      },
+      "geometry": {
+        "coordinates": [-66.9146008, 10.5060934],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Beijing"
+      },
+      "geometry": {
+        "coordinates": [116.3912757, 39.906217],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Bangkok"
+      },
+      "geometry": {
+        "coordinates": [100.4935089, 13.7524938],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Seoul"
+      },
+      "geometry": {
+        "coordinates": [126.9782914, 37.5666791],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Rome"
+      },
+      "geometry": {
+        "coordinates": [12.4829321, 41.8933203],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Vacaville"
+      },
+      "geometry": {
+        "coordinates": [-121.9877444, 38.3565773],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Lake Tomas"
+      },
+      "geometry": {
+        "coordinates": [-124.94060059066356, 54.54350475],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "City of Georgetown"
+      },
+      "geometry": {
+        "coordinates": [-58.1624465, 6.8137426],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Lagos State"
+      },
+      "geometry": {
+        "coordinates": [3.3941795, 6.4550575],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Cape"
+      },
+      "geometry": {
+        "coordinates": [-71.9071522, -36.4118688],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Benin City"
+      },
+      "geometry": {
+        "coordinates": [5.6221058, 6.3330586],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Munich"
+      },
+      "geometry": {
+        "coordinates": [11.5753822, 48.1371079],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Belin"
+      },
+      "geometry": {
+        "coordinates": [20.1080343, 48.3402121],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Madrid"
+      },
+      "geometry": {
+        "coordinates": [-3.7035825, 40.4167047],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Toronto"
+      },
+      "geometry": {
+        "coordinates": [-79.3839347, 43.6534817],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Los Angeles"
+      },
+      "geometry": {
+        "coordinates": [-118.242766, 34.0536909],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Mexico City"
+      },
+      "geometry": {
+        "coordinates": [-99.1331785, 19.4326296],
+        "type": "Point"
+      }
+    }
+  ],
+  "type": "FeatureCollection"
+}
+
