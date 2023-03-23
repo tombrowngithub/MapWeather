@@ -9,7 +9,7 @@ export default function Popup({setPopup,temperature,weather,description,cityName
                 <h2>Today in <span>{cityName}</span></h2>
                 <p>Temperature: <span>{temperature}</span>°C</p>
                 <p>Weather: <span>{weather}</span></p>
-                <p>Description: <span>{description}</span>°C</p>
+                <p>Description: <span>{description}</span></p>
             </div>
         </div>
 

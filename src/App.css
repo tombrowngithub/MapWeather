@@ -257,6 +257,32 @@
     .cities-container li:hover {
         background: #888888;
     }
+
+    .popup-container{
+        background: #102827;
+        color: white;
+        width: 40%;
+        height: 20%;
+        margin: auto;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        border-radius: 0.5rem;
+    }
+    .popup-container .Icon{
+        color: red;
+        cursor: pointer;
+    }
+    .Popup{
+        display: flex;
+        flex-direction: column;
+        padding-left: 1rem;
+    }
+    .Popup p{
+        margin-top: 0.5rem;
+    }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 767px) {
@@ -379,5 +405,31 @@
         color: white;
         border-radius: 0.2rem;
         box-shadow: 5px 5px 10px #cecece;
+    }
+
+    .popup-container{
+        background: #102827;
+        color: white;
+        width: 50%;
+        height: 25%;
+        margin: auto;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        border-radius: 0.5rem;
+    }
+    .popup-container .Icon{
+        color: red;
+        cursor: pointer;
+    }
+    .Popup{
+        display: flex;
+        flex-direction: column;
+        padding-left: 1rem;
+    }
+    .Popup p{
+        margin-top: 0.5rem;
     }
 }

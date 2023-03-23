@@ -34,7 +34,7 @@ export default function Map() {
             container: mapContainerRef.current,
             style: "mapbox://styles/mapbox/streets-v12",
             center: [12.4829321, 41.8933203],
-            zoom: 4,
+            zoom: 5,
         });
 
         // Add navigation control (the +/- zoom buttons)
@@ -51,10 +51,12 @@ export default function Map() {
                 setWeather(result);
             });
 
+        setNav(false)
+
         // Pan and zoom the map to the location of the city
         map.flyTo({
             center: city.geometry.coordinates,
-            zoom: 12,
+            zoom: 9,
             essential: true
         });
         map.loadImage(
@@ -90,14 +92,14 @@ export default function Map() {
                         .setLngLat(coordinates)
                         .setHTML(`<p>${city.properties.city}</p>
                             ${typeof weather.main !== "undefined" ? (
-                                <div>
+                            <div>
                                 <p>{weather.main.temp}°C</p>
                                 <p>{weather.weather[0].main}</p>
                                 <p>({weather.weather[0].description})</p>
-                                </div>
-                           ) : (
-                             ""
-                              )}
+                            </div>
+                        ) : (
+                            ""
+                        )}
                                `)
                         .addTo(map);
                 });
@@ -124,7 +126,7 @@ export default function Map() {
 
 
     function handleBtn() {
-        if(search){
+        if (search) {
             fetch(`https://nominatim.openstreetmap.org/search?q=${search}&format=json&limit=1`)
                 .then((res) => res.json())
                 .then((result) => {
@@ -140,12 +142,12 @@ export default function Map() {
 
                     map.flyTo({
                         center: [searchCoordinate.lon, searchCoordinate.lat],
-                        zoom: 12,
+                        zoom: 9,
                         essential: true
                     });
 
 
-                    map.on("click", "points", function (e){
+                    map.on("click", "points", function (e) {
                         setPopup(true)
                         console.log("Hello")
                         new mapboxgl.Popup()
